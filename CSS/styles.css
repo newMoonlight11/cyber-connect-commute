@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Estilos para el encabezado */
+
 header {
     background-color: #05668d;
     color: #fff;
@@ -14,7 +14,6 @@ header {
     padding: 20px;
 }
 
-/* Estilos para la barra de navegación */
 nav {
     background-color: #2180a5;
     padding: 10px;
@@ -77,55 +76,59 @@ footer {
     }
 }
 
+.columna2 {
+    width: calc(80% / 3); /* Divide el espacio en 4 columnas */
+    display: inline-block;
+    vertical-align: top;
+    margin: 45px; /* Aplica un margen automático en todos los lados */
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .columna2 {
+        width: 100%; /* En pantallas pequeñas, ocupar todo el ancho */
+    }
+}
+
+.columna3 {
+    width: calc(80% / 4); /* Divide el espacio en 4 columnas */
+    display: inline-block;
+    vertical-align: top;
+    margin: 35px; /* Aplica un margen automático en todos los lados */
+    padding: 20px;
+}
+@media screen and (max-width: 768px) {
+    .columna2 {
+        width: 100%; /* En pantallas pequeñas, ocupar todo el ancho */
+    }
+}
+
+.card-img-top{
+    padding: 8%;
+}
 .btn-azul {
     color: #fff;
-    background-color: #05668d;
-    border-color: #05668d;
+    background-color: #2180a5;
+    border-color: #2180a5;
 }
 
 .btn-azul:hover {
-    background-color: #427aa1;
-    border-color: #427aa1;
-}
+    background-color: #61b9db;
+    border-color: #61b9db;}
 /* Estilos para el encabezado */
-.nosotros-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Estilos para la barra de navegación */
-.nosotros-nav {
-    background-color: #444;
-    padding: 10px;
+.card-cam{
+    align-items: center;
+    align-content: center;
     text-align: center;
 }
 
-.nosotros-nav ul {
-    list-style-type: none;
-}
-
-.nosotros-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.nosotros-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Estilos para el pie de página */
-.nosotros-footer {
-    background-color: #333;
-    color: #fff;
+.title{
+    color: #2180a5;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
+
 /* Estilos para el párrafo en la página "Nosotros" */
 .nosotros-paragraph {
     margin: 20px auto;
@@ -197,5 +200,12 @@ footer {
 
 .equipo-member:hover h3,
 .equipo-member:hover p {
-    color: #ff6f61;
+    color: #679436;
 }
+
+/* custom-variables.css */
+
+/* Modifica el color primario */
+:root {
+    --bs-primary: #05668d; 
+  }
