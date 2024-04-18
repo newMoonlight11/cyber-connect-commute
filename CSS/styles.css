@@ -63,3 +63,115 @@ footer {
 .texto-con-sombra.con-sombra {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.634);
 }
+/* Estilos para el encabezado */
+.nosotros-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para la barra de navegación */
+.nosotros-nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.nosotros-nav ul {
+    list-style-type: none;
+}
+
+.nosotros-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nosotros-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el pie de página */
+.nosotros-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Estilos para el párrafo en la página "Nosotros" */
+.nosotros-paragraph {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.nosotros-section {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.nosotros-section h2 {
+    margin-bottom: 20px;
+}
+
+.nosotros-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nosotros-section ul li {
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nosotros-section ul li:last-child {
+    margin-bottom: 0;
+    margin-right: 10px; /* Espacio entre elementos */
+}
+
+.nosotros-section ul li:last-child {
+    margin-bottom: 0;
+}
+.equipo-member {
+    margin-bottom: 50px;
+}
+
+.equipo-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.equipo-member h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.equipo-member p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Estilos para el hover sobre el miembro del equipo */
+.equipo-member:hover img {
+    transform: scale(1.1);
+}
+
+.equipo-member:hover h3,
+.equipo-member:hover p {
+    color: #ff6f61;
+}
