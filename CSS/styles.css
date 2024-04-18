@@ -53,3 +53,13 @@ footer {
 @media (min-width: 769px) and (max-width: 1024px) {
     /* Estilos para pantallas medianas */
 }
+
+/* Estilos para el texto con sombra */
+.texto-con-sombra {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el texto con sombra cuando el mouse está encima */
+.texto-con-sombra.con-sombra {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.634);
+}
