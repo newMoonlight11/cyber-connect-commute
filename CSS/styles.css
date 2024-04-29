@@ -11,12 +11,13 @@ header {
     background-color: #05668d;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    height: 2%;
 }
 
 nav {
     background-color: #2180a5;
-    padding: 10px;
+    padding: 5%, 5%;
 }
 
 nav ul {
@@ -34,72 +35,64 @@ nav ul li a {
     color: #fff;
 }
 
-/* Estilos para el pie de página */
 footer {
     background-color: #05668d;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    align-items: center;
+    padding: 1%, 2%;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 4%;
 }
 
-@media (max-width: 768px) {
-    /* Estilos para pantallas pequeñas */
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    /* Estilos para pantallas medianas */
-}
-
-/* Estilos para el texto con sombra */
 .texto-con-sombra {
     font-family: Arial, sans-serif;
 }
 
-/* Estilos para el texto con sombra cuando el mouse está encima */
+
 .texto-con-sombra.con-sombra {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.634);
 }
 
 .columna {
-    width: calc(85% / 4); /* Divide el espacio en 4 columnas */
+    width: calc(85% / 4); 
     display: inline-block;
     vertical-align: top;
-    margin: 25px; /* Aplica un margen automático en todos los lados */
+    margin: 25px;
     padding: 20px;
 }
 @media screen and (max-width: 768px) {
     .columna {
-        width: 100%; /* En pantallas pequeñas, ocupar todo el ancho */
+        width: 100%; 
     }
 }
 
 .columna2 {
-    width: calc(80% / 3); /* Divide el espacio en 4 columnas */
+    width: calc(80% / 3); 
     display: inline-block;
     vertical-align: top;
-    margin: 45px; /* Aplica un margen automático en todos los lados */
+    margin: 45px; 
     padding: 20px;
     text-align: center;
 }
 @media screen and (max-width: 768px) {
     .columna2 {
-        width: 100%; /* En pantallas pequeñas, ocupar todo el ancho */
+        width: 100%; 
     }
 }
 
 .columna3 {
-    width: calc(80% / 4); /* Divide el espacio en 4 columnas */
+    width: calc(80% / 4); 
     display: inline-block;
     vertical-align: top;
-    margin: 35px; /* Aplica un margen automático en todos los lados */
+    margin: 35px;
     padding: 20px;
 }
 @media screen and (max-width: 768px) {
     .columna2 {
-        width: 100%; /* En pantallas pequeñas, ocupar todo el ancho */
+        width: 100%;
     }
 }
 
@@ -129,7 +122,7 @@ footer {
     text-align: center;
 }
 
-/* Estilos para el párrafo en la página "Nosotros" */
+
 .nosotros-paragraph {
     margin: 20px auto;
     max-width: 800px;
@@ -161,7 +154,7 @@ footer {
 
 .nosotros-section ul li:last-child {
     margin-bottom: 0;
-    margin-right: 10px; /* Espacio entre elementos */
+    margin-right: 10px; 
 }
 
 .nosotros-section ul li:last-child {
@@ -193,7 +186,7 @@ footer {
     line-height: 1.5;
 }
 
-/* Estilos para el hover sobre el miembro del equipo */
+
 .equipo-member:hover img {
     transform: scale(1.1);
 }
@@ -203,9 +196,6 @@ footer {
     color: #679436;
 }
 
-/* custom-variables.css */
-
-/* Modifica el color primario */
 :root {
     --bs-primary: #05668d; 
   }
