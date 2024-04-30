@@ -103,6 +103,8 @@ footer {
     color: #fff;
     background-color: #2180a5;
     border-color: #2180a5;
+    border-radius: 10px;
+    padding: 1.5%;
 }
 
 .btn-azul:hover {
@@ -199,3 +201,49 @@ footer {
 :root {
     --bs-primary: #05668d; 
   }
+
+.hidden {
+    display: none; /* Para ocultar secciones inicialmente */
+}
+
+.metodos-pago {
+    display: flex; /* Para alinear horizontalmente */
+    justify-content: space-around; /* Distribuir uniformemente */
+    align-items: center; /* Alineación vertical */
+    margin-top: 10px; /* Para separar del botón */
+}
+
+.metodos-pago div {
+    display: flex;
+    text-align: center; /* Alineación central */
+    flex-direction: column;
+    align-items: center;
+}
+
+.metodos-pago img {
+    width: 6rem; /* Tamaño de las imágenes */
+    height: auto; /* Mantener relación de aspecto */
+}
+
+.form-group {
+    margin-bottom: 1.5em; /* Para agregar espacio entre campos */
+}
+
+.metodos-pago1 {
+    display: flex; /* Para alinear horizontalmente */
+    justify-content: space-around; /* Distribuir uniformemente */
+    align-items: center; /* Alineación vertical */
+    margin-top: 10px; /* Para separar del botón */
+}
+
+.metodos-pago1 div {
+    display: flex;
+    text-align: center; /* Alineación central */
+    flex-direction: column;
+    align-items: center;
+}
+
+.metodos-pago1 img {
+    width: 4rem; /* Tamaño de las imágenes */
+    height: auto; /* Mantener relación de aspecto */
+}
