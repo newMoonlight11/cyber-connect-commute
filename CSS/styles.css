@@ -247,3 +247,100 @@ footer {
     width: 4rem; /* Tamaño de las imágenes */
     height: auto; /* Mantener relación de aspecto */
 }
+
+.contacto {
+    background-color: #05668d;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: inline-block; /* Cambiado a inline-block */
+    position: absolute; /* Posición absoluta */
+    left: 220px; /* Ajustar la posición izquierda según sea necesario */
+    z-index: 1; /* Asegurar que esté encima del cuadrado blanco */
+    border-radius: 20px;
+}
+
+.contacto h2 {
+    margin-top: 0;
+}
+.contacto p {
+    margin-bottom: 20px;
+}
+.contacto ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.contacto ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.contacto ul li img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.formulario-contacto {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px; /* Borde redondeado */
+    margin: auto; /* Centrado horizontal */
+    max-width: 500px; /* Ancho máximo */
+    text-align: center;
+}
+.formulario-contacto input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+}
+.formulario-contacto button {
+    background-color: #05668d; /* Fondo azul */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer;
+}
+.fondo-claro {
+    background-color: #cce6ff; /* Fondo azul muy claro */
+    padding: 20px;
+}
+.cuadrado-blanco {
+background-color: #ffffff;
+border-radius: 0;
+padding: 20px;
+max-width: 800px; /* Cambiar el valor según sea necesario */
+height: 500px;
+margin: auto;
+text-align: center;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+border-radius: 20px;
+}
+
+.cuadrado-blanco h2 {
+    color: #05668d;
+}
+.cuadrado-blanco p {
+    color: grey;
+}
+.cuadrado-blanco input[type="text"] {
+    width: calc(100% - 20px);
+    height: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+.cuadrado-blanco button {
+    background-color: #05668d;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
