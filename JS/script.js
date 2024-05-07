@@ -83,3 +83,62 @@ function calcularPrecioRide() {
     document.getElementById("precio-indrive").textContent = `Precio: COP ${precioAleatorio()}`;
 }
 
+
+// function geocode() {
+//     var address = document.getElementById("address").value;
+//     var apiKey = "TU_CLAVE_DE_OPENCAGE";
+
+//     fetch(`https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(address)}&key=${apiKey}`)
+//     .then(response => response.json())
+//     .then(data => {
+//         if (data.results.length > 0) {
+//             var latlng = data.results[0].geometry;
+//             // Aquí puedes centrar el mapa o actualizar el marcador
+//         } else {
+//             console.warn("No se encontró la dirección");
+//         }
+//     })
+//     .catch(error => {
+//         console.error("Error durante la geocodificación:", error);
+//     });
+// }
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     // Código para configurar eventos o inicializar otros componentes
+// });
+
+// function mostrarFormulario() {
+//     // Ocultar todos los formularios
+//     document.getElementById("formulario-domicilios").classList.add("hidden");
+//     document.getElementById("formulario-transporte").classList.add("hidden");
+//     document.getElementById("formulario-emergencias").classList.add("hidden");
+//     document.getElementById("formulario-alquiler").classList.add("hidden");
+
+//     const servicio = document.getElementById("servicio").value;
+
+//     // Mostrar el formulario adecuado según el servicio seleccionado
+//     if (servicio === "emergencias") {
+//         // Hacer visible el contenedor para emergencias
+//         const emergencias = document.getElementById("formulario-emergencias");
+//         emergencias.classList.remove("hidden");
+
+//         // Inicializar el mapa solo después de hacer visible el contenedor
+//         if (!window.map) { // Asegurarse de que solo se inicializa una vez
+//             window.map = L.map("map").setView([51.505, -0.09], 13);
+
+//             L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+//                 attribution: "&copy; OpenStreetMap contributors",
+//             }).addTo(window.map);
+
+//             L.marker([51.505, -0.09]).addTo(window.map)
+//                 .bindPopup("Marcador para emergencias")
+//                 .openPopup();
+//         }
+//     } else if (servicio === "domicilios") {
+//         document.getElementById("formulario-domicilios").classList.remove("hidden");
+//     } else if (servicio === "transporte") {
+//         document.getElementById("formulario-transporte").classList.remove("hidden");
+//     } else if (servicio === "alquiler") {
+//         document.getElementById("formulario-alquiler").classList.remove("hidden");
+//     }
+// }
